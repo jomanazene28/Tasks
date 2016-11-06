@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8f7d9f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvTitle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/tvAddress"
+            android:background="#664079"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/tvTitle"
+            android:layout_alignEnd="@+id/ibPhone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvDate"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/ibPhone"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibPhone"
+            android:src="@android:drawable/ic_menu_call"
+            android:background="#bfb5cf"
+            android:layout_below="@+id/tvAddress"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/rbPriority" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbPriority"
+            android:layout_below="@+id/ibPhone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:id="@+id/cbCheck"
+            android:checked="false"
+            android:layout_below="@+id/rbPriority"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

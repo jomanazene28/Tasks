@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JomanaTasksManger</string>
+    <string name="Email">البريد الالكتروني</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="Signin">تسجيل الدخول</string>
+    <string name="Add">اضافه</string>
+    <string name="Addtask">اضافة مهمه</string>
+    <string name="Contacts">جهات الاتصال</string>
+    <string name="Fullname">الاسم الكامل</string>
+    <string name="Location">الموقع</string>
+    <string name="Newaccount">حساب جديد</string>
+    <string name="Phone">الهاتف</string>
+    <string name="Repassword">تأكيد كلمة المرور</string>
+    <string name="Save">حفظ</string>
+    <string name="SignUp">تسجيل</string>
+    <string name="TaskText">نص المهمه</string>
+    <string name="title_activity_tasks_list">قائمة المهمات</string>
+    <string name="LogOut">تسجيل الخروج</string>
+    <string name="logoutsetting">اعدادات تسجيل الخروج</string>
+</resources>

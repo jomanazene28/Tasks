@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JomanaTasksManger</string>
+    <string name="title_activity_tasks_list">TasksListActivity</string>
+    <string name="Email">Email</string>
+    <string name="Signin">Sign in</string>
+    <string name="Password">Password</string>
+    <string name="Newaccount">New account</string>
+    <string name="Repassword">Re password</string>
+    <string name="Fullname">Full name</string>
+    <string name="SignUp">Sign up</string>
+    <string name="Addtask">Add task</string>
+    <string name="Add">Add</string>
+    <string name="Save">Save</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Location">Location</string>
+    <string name="Phone">Phone</string>
+    <string name="TaskText">Task text</string>
+    <string name="LogOut">LogOut</string>
+    <string name="logoutsetting">logOutsettings</string>
+</resources>
